@@ -11,5 +11,5 @@ RUN yarn global add pug-cli
 WORKDIR /app
 COPY . /app
 RUN yarn install
-CMD ["sh" , "run.sh"]
+CMD ["sh", "run.sh"]
 
